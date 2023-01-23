@@ -1,4 +1,3 @@
-import "./App.css";
 import VendingMachine from "./VendingMachine";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Food from "./Food";
