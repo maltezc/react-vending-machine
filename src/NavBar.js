@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
+// import "./NavBar.css";
 
-function VendingMachine() {
+function NavBar() {
   return (
-    <div>
+    <nav className="NavBar">
       <Link to="/">
         VendingMachine
       </Link>
@@ -16,8 +17,8 @@ function VendingMachine() {
       <Link to="/reeses">
         Reeses
       </Link>
-    </div>
+    </nav>
   );
 }
 
-export default VendingMachine;
+export default NavBar;
